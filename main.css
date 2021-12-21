@@ -1,0 +1,66 @@
+body{
+    text-align:center;
+    background-image: url(https://www.aljazeera.com/wp-content/uploads/2021/11/AP21308570564472.jpg?resize=770%2C513);
+}
+img{
+    width:98%;
+    height:100%;
+    border-width:10px;
+    border-radius: 15px;
+    border-style:solid;
+    border-color:white;
+}
+p{
+    font-size: 25px;
+    color:lightblue;
+    background-color:darkviolet;
+}
+iframe{
+    width:450px;
+    border-width:10px;
+    border-radius:15px;
+    border-style:solid;
+    border-color:white;
+}
+#introduction{
+    background-image: url(https://cdn.mos.cms.futurecdn.net/M7fDTpDnJcZ4dt3myngzxi.jpg);
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    color:red;
+    border-width: 5px;
+    border-color:mediumvioletred;
+    border-style:solid;
+    background-color:gold;
+}
+#big_heading{
+    font-size:40px;
+}
+#sun,#mercury,#venus,#earth,#mars,#jupiter,#saturn,#uranus,#neptune{
+    float:left;
+    width:450px;
+    height:350px;
+}
+#sun2,#mercury2,#venus2,#earth2,#mars2,#jupiter2,#saturn2,#uranus2,#neptune2{
+    float:right;
+    width:450px;
+    height:350px;
+}
+.links{
+    float:left;
+    color:fuchsia;
+    padding-top:5px;
+    padding-left:33px;
+    padding-right:25px;
+    padding-bottom:5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    display:inline;
+
+}
+.links:hover{
+    background-color:aqua;
+    font-size:25px;
+    text-decoration:underline;
+}
